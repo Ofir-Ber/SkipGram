@@ -16,9 +16,6 @@ import json
 from sklearn.decomposition import PCA
 
 
-__authors__ = ['Ofir Berger','Sauvik Chatterjee','Bryan Atok A Kiki', 'Abhinav Singh']
-__emails__  = ['b00791562@essec.edu','b00782253@essec.edu','b00792559@essec.edu', 'b00789513@essec.edu']
-
 def text2sentences(path):
 	# feel free to make a better tokenization/pre-processing
 	sentences = []
