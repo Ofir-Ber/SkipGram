@@ -45,6 +45,7 @@ appearing together have strong correlation.
 The negative sampling is performed by randomly picking word from the unigram table taking into 
 account that the sampled word is neither part of the context nor the center word with the length of 
 the negative word set predefined as a hyperparameter.
+
 • Training -
 1) Forward Propagation: Computing hidden (projection) layer
 2) Forward Propagation: Sigmoid output layer
@@ -61,7 +62,7 @@ Given the fact that we are in a positive space, it returns a number between [0 ;
 (the higher the more similar the words are)
 
 # Hyper-parameter Tuning:
-Over the assignment we performed hyperparameter tuning to find the setup to improve the accuracy 
+We performed hyperparameter tuning to find the setup to improve the accuracy 
 our model. This process has been done using a trial-and-error approach based on the reported 
 correlation between the computed and the actual similarity figures.
 1. Learning rate
